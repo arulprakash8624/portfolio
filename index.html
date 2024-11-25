@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+                <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                <li class="nav-item"><a class="nav-link" href="#volunteership">Volunteership</a></li>
+                <li class="nav-item"><a class="nav-link" href="#coding-platforms">Coding Platforms</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+   <!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 text-center">
+                <h1 class="fw-bold">Arul Prakash N R</h1>
+                <p class="lead">Full Stack Developer</p>
+                <div class="d-flex justify-content-center gap-3 mt-3">
+                    <button class="btn btn-primary" onclick="document.location='#contact'">Get In Touch</button>
+                    <a href="logo/resume.pdf" download class="btn btn-outline-light">
+                        <i class="bi bi-download me-2"></i>Download Resume
+                    </a>
+                </div>
+                <!-- Social Media Links -->
+                <div class="d-flex justify-content-center gap-3 mt-4">
+                    <a href="https://www.linkedin.com/in/arul-prakash-n-r-26b36b246" target="_blank" class="btn btn-outline-light">
+                        <i class="bi bi-linkedin me-2"></i>LinkedIn
+                    </a>
+                    <a href="https://github.com/arulprakash8624" target="_blank" class="btn btn-outline-light">
+                        <i class="bi bi-github me-2"></i>GitHub
+                    </a>
+                    <a href="mailto:arulprakash8624@gmail.com" class="btn btn-outline-light">
+                        <i class="bi bi-envelope me-2"></i>Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <!-- About Section -->
+<section id="about" class="about-section">
+    <div class="container text-center"><br><br><br>
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6">
+                <div class="profile-img-container">
+                    <img src="logo/profile.jpg" alt="Your Name" class="profile-img fade-in">
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-6">
+                <p class="about-description fade-in">
+                    Hello, I'm <strong>Arul Prakash</strong>, a passionate software developer and engineer with a deep interest in solving complex problems through code. I specialize in full-stack development, with a focus on Java, Python, and web technologies like Django and React. With hands-on experience in building scalable applications, optimizing code for performance, and working with cutting-edge technologies, I strive to make an impact by creating meaningful software solutions.
+                </p>
+                <p class="about-description fade-in">
+                    I enjoy collaborating with teams, learning new technologies, and contributing to open-source projects. In my spare time, I like exploring new trends in AI and quantum computing, which are areas I'm particularly excited about for the future.
+                </p>
+                <a href="#projects" class="btn btn-primary btn-lg fade-in">View My Projects</a>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Skills Section -->
+<section id="skills" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4 fade-in">Skills</h2>
+        <div class="row justify-content-center">
+            <!-- Skill 1: Java -->
+            <div class="col-lg-3 col-md-4 col-sm-6 skill-card">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="logo/java.png" alt="Java Logo" class="skill-logo">
+                        <h5 class="card-title">Java</h5>
+                    </div>
+                </div>
+            </div> 
+            <!-- Skill 2: Python -->
+            <div class="col-lg-3 col-md-4 col-sm-6 skill-card">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="logo/python.png" alt="Python Logo" class="skill-logo">
+                        <h5 class="card-title">Python</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Skill 3: Django -->
+            <div class="col-lg-3 col-md-4 col-sm-6 skill-card">
+                <div class="card text-center">
+                <div class="card-body">
+                    <img src="logo/django.png" alt="Django Logo" class="skill-logo">
+                <h5 class="card-title">Django</h5>
+                 </div>
+                </div>
+            </div>
+
+
+            <!-- Skill 4: JavaScript -->
+            <div class="col-lg-3 col-md-4 col-sm-6 skill-card">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="logo/java_s.png" alt="JavaScript Logo" class="skill-logo">
+                        <h5 class="card-title">JavaScript</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 5: SQL -->
+            <div class="col-lg-3 col-md-4 col-sm-6 skill-card">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="logo/mysql.png" alt="SQL Logo" class="skill-logo">
+                        <h5 class="card-title">SQL</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 6: Git -->
+            <div class="col-lg-3 col-md-4 col-sm-6 skill-card">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="logo/git.png" alt="Git Logo" class="skill-logo">
+                        <h5 class="card-title">Git</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more skills as needed -->
+        </div>
+    </div>
+</section>
+
+
+    <!-- Certificates Section -->
+    <!-- Certification Section -->
+    <section id="certificates" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 fade-in">Certifications</h2>
+            <div class="row justify-content-center">
+                <!-- Certification 1: Java Full-Stack -->
+                <div class="col-lg-3 col-md-4 col-sm-6 certificate-card">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="logo/java.png" alt="Java Certification" class="certificate-icon">
+                            <h5 class="card-title">Java Full-Stack</h5>
+                            <p class="card-text">Wipro</p>
+                            <img src="logo/wipro.png" alt="Wipro Logo" class="institution-logo">
+                            <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#modalJavaFullStack">View Certificate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for Java Full-Stack -->
+                <div class="modal fade" id="modalJavaFullStack" tabindex="-1" aria-labelledby="modalJavaFullStackLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalJavaFullStackLabel">Java Full-Stack Certification</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="logo/wipro_cer.png" alt="Java Full-Stack Certificate" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Certification 2: JavaScript Essentials 1 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 certificate-card">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="logo/java_s.png" alt="JavaScript Certification" class="certificate-icon">
+                            <h5 class="card-title">JavaScript Essentials1</h5>
+                            <p class="card-text">Cisco Netacad</p>
+                            <img src="logo/netacad.jpg" alt="Cisco Logo" class="institution-logo">
+                            <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#modalJavaScript">View Certificate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for JavaScript Essentials 1 -->
+                <div class="modal fade" id="modalJavaScript" tabindex="-1" aria-labelledby="modalJavaScriptLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalJavaScriptLabel">JavaScript Essentials 1 Certification</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="logo/js_cer.png" alt="JavaScript Essentials Certificate" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Certification 3: Python Essentials -->
+                <div class="col-lg-3 col-md-4 col-sm-6 certificate-card">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="logo/python.png" alt="Python Essentials Certification" class="certificate-icon">
+                            <h5 class="card-title">Python Essentials 1 </h5>
+                            <p class="card-text">Cisco Netacad</p>
+                            <img src="logo/netacad.jpg" alt="Cisco Logo" class="institution-logo">
+                            <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#modalPython">View Certificate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for Python Essentials -->
+                <div class="modal fade" id="modalPython" tabindex="-1" aria-labelledby="modalPythonLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalPythonLabel">Python Essentials Certification</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="logo/python_1.png" alt="Python Essentials Certificate" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             <!-- Certification 4: Python Essentials -->
+
+                <div class="col-lg-3 col-md-4 col-sm-6 certificate-card">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="logo/python.png" alt="Python Essentials Certification" class="certificate-icon">
+                            <h5 class="card-title">Python Essentials 2</h5>
+                            <p class="card-text">Cisco Netacad</p>
+                            <img src="logo/netacad.jpg" alt="Cisco Logo" class="institution-logo">
+                            <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#modalPython1">View Certificate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for Python Essentials -->
+                <div class="modal fade" id="modalPython1" tabindex="-1" aria-labelledby="modalPythonLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalPythonLabel">Python Essentials Certification</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="logo/python_2.png" alt="Python Essentials Certificate" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Certification 5: Introduction to Networks -->
+                <div class="col-lg-3 col-md-4 col-sm-6 certificate-card">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="logo/network.jpg" alt="Network Certification" class="certificate-icon">
+                            <h5 class="card-title">CCNA Module 1: Introduction to Networks</h5>
+                            <p class="card-text">Cisco Netacad</p>
+                            <img src="logo/netacad.jpg" alt="Cisco Logo" class="institution-logo">
+                            <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#modalNetworks">View Certificate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for Introduction to Networks -->
+                <div class="modal fade" id="modalNetworks" tabindex="-1" aria-labelledby="modalNetworksLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalNetworksLabel">Introduction to Networks Certification</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="" alt="Introduction to Networks Certificate" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Certification 6: Data Structures with Python -->
+                <div class="col-lg-3 col-md-4 col-sm-6 certificate-card">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img src="logo/data.png" alt="Python Data Structures Certification" class="certificate-icon">
+                            <h5 class="card-title">Data Structures & Algorithm using Python programming</h5>
+                            <p class="card-text">NPTEL</p>
+                            <img src="logo/nptel.png" alt="NPTEL Logo" class="institution-logo">
+                            <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#modalDataStructures">View Certificate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for Data Structures with Python -->
+                <div class="modal fade" id="modalDataStructures" tabindex="-1" aria-labelledby="modalDataStructuresLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalDataStructuresLabel">Data Structures & Algorithm with Python Certification</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="logo/nptel_cer.png" alt="Data Structures & Algorithm with Python Certificate" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Achievements</h2>
+            <div class="row" id="achievementsContainer">
+                <!-- Achievement 1: 1st Place in Collegiate Coding Contest -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card text-center achievement-card">
+                        <div class="card-body">
+                            <img src="logo/st.jpg" alt="Coding Contest Trophy" class="achievement-icon">
+                            <h5 class="card-title">1st Place - Code Drive</h5>
+                            <p class="card-text">St. Joseph's College</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalStJoseph">View Media</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for Achievement 1 -->
+                <div class="modal fade" id="modalStJoseph" tabindex="-1" aria-labelledby="modalStJosephLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalStJosephLabel">1st Place - Code Drive</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="logo/code_drive.jpg" alt="Certificate" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Achievement 2: 1st Place in Competitive Debugging -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card text-center achievement-card">
+                        <div class="card-body">
+                            <img src="logo/annamalai.png" alt="Debugging Trophy" class="achievement-icon">
+                            <h5 class="card-title">1st Place - Code Debug</h5>
+                            <p class="card-text">Annamalai University</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAnnamalai">View Media</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for Achievement 2 -->
+                <div class="modal fade" id="modalAnnamalai" tabindex="-1" aria-labelledby="modalAnnamalaiLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalAnnamalaiLabel">1st Place - Code Debug</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="logo/code_debug.jpg" alt="Certificate" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Achievement 3: 1st Place in Code War Competition -->
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card text-center achievement-card">
+                        <div class="card-body">
+                            <img src="logo/ifet.png" alt="Code War Trophy" class="achievement-icon">
+                            <h5 class="card-title">1st Place - Code War</h5>
+                            <p class="card-text">IFET College of Engineering</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalIFET">View Media</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal for Achievement 3 -->
+                <div class="modal fade" id="modalIFET" tabindex="-1" aria-labelledby="modalIFETLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalIFETLabel">1st Place - Code War</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="logo/code_warr.jpg" alt="Certificate" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Volunteership Section -->
+<!-- Volunteership Section -->
+<section id="volunteership" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Volunteership</h2>
+        <div class="row justify-content-center" id="volunteershipContainer">
+            <!-- Volunteership 1: Coding Instructor in Code Club -->
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
+                <div class="card text-center volunteer-card">
+                    <div class="card-body">
+                        <i class="bi bi-laptop" style="font-size: 3rem; color: var(--primary-color);"></i>
+                        <h5 class="card-title">Coding Instructor</h5>
+                        <p class="card-text">Code Club - IFET College of Engineering</p>
+                        <p class="card-text">
+                            Conducted hands-on coding sessions, mentored junior students, and fostered problem-solving and algorithmic thinking in the Code Club.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Coding Platforms Section -->
+<section id="coding-platforms" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Coding Platforms</h2>
+        <div class="row justify-content-center">
+            <!-- HackerRank -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <a href="https://www.hackerrank.com/profile/arulprakash8624" target="_blank">
+                            <img src="logo/hackerrank.png" alt="HackerRank Logo" class="img-fluid mb-3" style="max-height: 80px;">
+                        </a>
+                        <h5 class="card-title">HackerRank</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LeetCode -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <a href="https://leetcode.com/u/arulprakash8624/" target="_blank">
+                            <img src="logo/leetcode.png" alt="LeetCode Logo" class="img-fluid mb-3" style="max-height: 80px;">
+                        </a>
+                        <h5 class="card-title">LeetCode</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GeeksforGeeks -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <a href="https://www.geeksforgeeks.org/user/arulprakash8624/" target="_blank">
+                            <img src="logo/geeksforgeeks.jpg" alt="GeeksforGeeks Logo" class="img-fluid mb-3" style="max-height: 80px;">
+                        </a>
+                        <h5 class="card-title">GeeksforGeeks</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+<section id="projects" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">My Projects</h2>
+        <div class="row justify-content-center" id="projectsContainer">
+
+            <!-- Project 1: Notes Sharing Application -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-center project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Notes Sharing Application</h5>
+                        <p class="card-text">
+                            A web app built using Python and Django for sharing academic notes with features like user authentication, role-based access, and search functionality.
+                        </p>
+                        <a href="https://github.com/arulprakash8624/notes_sharing_application" target="_blank" class="btn btn-primary">
+                            <i class="bi bi-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Bus Booking System -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-center project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Bus Booking System</h5>
+                        <p class="card-text">
+                            Developed in Java, this system allows users to book, cancel, and manage bus reservations efficiently with features like seat allocation and billing.
+                        </p>
+                        <a href="https://github.com/arulprakash8624/busbooking_system.git" target="_blank" class="btn btn-primary">
+                            <i class="bi bi-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: Text Extraction from Images -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-center project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Text Extraction from Images</h5>
+                        <p class="card-text">
+                            An OCR system built using Python, OpenCV, and Tesseract to extract text from images, with features like multilingual processing and word detection.
+                        </p>
+                        <a href="https://github.com/yourgithubusername/text-extraction-ocr" target="_blank" class="btn btn-primary">
+                            <i class="bi bi-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form id="contactForm">
+                    <div class="mb-3">
+                        <input type="text" id="name" class="form-control" placeholder="Name" required />
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" id="email" class="form-control" placeholder="Email" required />
+                    </div>
+                    <div class="mb-3">
+                        <textarea id="message" class="form-control" rows="5" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100" id="submitBtn">Send Message</button>
+                </form>
+                
+                <div id="responseMessage" class="mt-4" style="display:none;">
+                    <p class="alert alert-success">Your message has been sent! Thank you for contacting me.</p>
+                </div>
+                <div id="errorMessage" class="mt-4" style="display:none;">
+                    <p class="alert alert-danger">Oops! Something went wrong. Please try again later.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Include EmailJS Script -->
+<script type="text/javascript">
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission
+    
+        // Get form data
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+    
+        console.log("Name:", name);
+        console.log("Email:", email);
+        console.log("Message:", message);
+    
+        // Disable the button to prevent multiple clicks
+        document.getElementById('submitBtn').disabled = true;
+        
+        // Send the email via EmailJS
+        emailjs.send('service_j7d6n4w', 'template_r4vhsg8', {
+            name: name,
+            email: email,
+            message: message
+        }, 'NY0n_bnF5d57JwzYM')
+        .then(function(response) {
+            console.log('Success:', response);
+            document.getElementById('responseMessage').style.display = 'block'; // Show success message
+            document.getElementById('contactForm').reset(); // Reset the form after submission
+            document.getElementById('submitBtn').disabled = false; // Re-enable the submit button
+        }, function(error) {
+            console.log('Error:', error);
+            document.getElementById('errorMessage').style.display = 'block'; // Show error message
+            document.getElementById('submitBtn').disabled = false; // Re-enable the submit button
+        });
+    });
+    
+</script>
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    emailjs.init('NY0n_bnF5d57JwzYM');  // Your actual User ID
+</script>
+
+
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">© 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
